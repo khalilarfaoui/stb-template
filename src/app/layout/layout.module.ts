@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { LayoutRoutingModule } from './layout-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from '../auth/login/login.component';
 
 
 
@@ -11,7 +12,8 @@ import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     LayoutRoutingModule,

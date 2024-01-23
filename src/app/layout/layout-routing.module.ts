@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
     {
-        path: '', component: NavbarComponent, children: [
+        path: 'home', component: NavbarComponent, children: [
             {
                 path: '',component : HomeComponent
             }
