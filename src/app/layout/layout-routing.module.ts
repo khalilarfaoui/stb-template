@@ -5,12 +5,14 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
     {
+        
         path: 'home', component: NavbarComponent, children: [
             {
                 path: '',component : HomeComponent
             }
         ]
-    }
+    },
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
